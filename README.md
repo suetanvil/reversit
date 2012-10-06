@@ -1,9 +1,9 @@
-                             ReversIt 1.0
-                             ------------
+ReversIt 1.0
+------------
 
 ReversIt is a program which plays the game Reversi (aka Othello).  I
 wrote it for fun and stopped working on it once it stopped being
-fun[^1].  As such, it isn't a particulary *good* Othello player[^2].
+fun[1].  As such, it isn't a particulary *good* Othello player[2].
 
 It is written in Ruby 1.9.1 and uses Ruby/Tk.  The code is reasonably
 simple and readable.
@@ -59,8 +59,8 @@ distributed with *NO WARRANTY OF ANY KIND*.
 
 
 
-[^1]: Actually, it stopped being fun at around the 75% mark but by
+[1]: Actually, it stopped being fun at around the 75% mark but by
 that point I'd come too far.
 
-[^2]: Then again, neither am I.  For a while, I was consistently being
+[2]: Then again, neither am I.  For a while, I was consistently being
 beaten by an early version that picked its moves at random.
