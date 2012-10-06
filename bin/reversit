@@ -1,0 +1,18 @@
+#!/usr/bin/env ruby1.9.1
+
+# Copyright (C) 2012 Chris Reuter. GPL, No Warranty, see Copyright.txt
+
+# Reversit is a simple Reversi (aka Othello) game program.  It
+# requires Ruby 1.9.1 or later and Ruby/Tk.
+
+proc {
+  path = File.dirname(__FILE__) + '/../lib/' # Edit if necessary
+  $LOAD_PATH.unshift(path)    # So we can load the other source files2
+}.call()
+
+require 'gui'
+require 'diag'
+
+Diag.initDiag
+Gui.new.go
+
