@@ -1,6 +1,6 @@
-#!/usr/bin/env ruby1.9.1
+#!/usr/bin/env ruby
 
-# Copyright (C) 2012 Chris Reuter. GPL, No Warranty, see Copyright.txt
+# Copyright (C) 2012,2019 Chris Reuter. GPL, No Warranty, see Copyright.txt
 
 # Reversit is a simple Reversi (aka Othello) game program.  It
 # requires Ruby 1.9.1 or later and Ruby/Tk.
